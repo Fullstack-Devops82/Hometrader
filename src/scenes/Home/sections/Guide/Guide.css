@@ -1,0 +1,28 @@
+.guide-panel {
+  width: 100%;
+  height: 918px;
+  background: url(./images/home_background.png) no-repeat top center;
+  background-size: cover; }
+
+.guide-panel-top {
+  padding-top: 43px;
+  text-align: center;
+  padding-bottom: 23px; }
+
+.guide-panel-center {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.check-selling-img {
+  width: 100%;
+  padding-top: 36px;
+  padding-bottom: 16px; }
+
+@media (min-width: 1800px) {
+  .guide-panel-contents {
+    /* max-width: 1787px; */
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; } }

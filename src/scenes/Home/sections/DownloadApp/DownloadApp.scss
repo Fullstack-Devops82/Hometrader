@@ -1,0 +1,156 @@
+.app-panel {
+    width: 100%;
+    /* height: 822px; */
+    background-color: #43545c;
+}
+
+.app-panel-top {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 65px;
+    /* margin-top: 107px; */
+    margin-bottom: 53px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.review-apart-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 45px;
+    letter-spacing:0px;
+
+    p {
+        font-weight: 500;
+    }
+}
+
+.app-bottom {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 63px;
+    width: 891px;
+    height: 562px;
+}
+
+.app-bottom-left {
+    float: left;
+    position: relative;
+}
+
+.app-bottom-right {
+    float: left;
+    position: relative;
+    margin-top: 57px;
+    margin-left: -26px;
+}
+
+.app-store-bottom {
+    margin-top: 25px;
+    padding-bottom: 45px;
+
+    img:hover {
+        border-radius: 7%;
+        box-shadow: 0 0 20px 6px rgba(148, 199, 216, 0.5);
+    }
+}
+
+.app-store-top {
+    img:hover {
+        border-radius: 7%;
+        box-shadow: 0 0 20px 6px rgba(148, 199, 216, 0.5);
+    }
+}
+
+@media (max-width: 375px) {
+    .app-bottom {
+        width: auto;
+        padding-top: 0px;
+        height: auto;
+    }
+
+    .app-bottom-left {
+        display: none;
+    }
+
+    .app-bottom-right {
+        text-align: center;
+        float: none;
+    }
+
+    .app-store-top {
+        img {
+            width: 190px;
+        }
+    }
+
+    .app-store-bottom {
+        img {
+            width: 190px;
+        }
+    }
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+    .app-bottom {
+        width: auto;
+        padding-top: 0px;
+        height: auto;
+    }
+
+    .app-bottom-left {
+        display: none;
+    }
+
+    .app-bottom-right {
+        text-align: center;
+        float: none;
+    }
+
+    .app-store-top {
+        img {
+            width: 190px;
+        }
+    }
+
+    .app-store-bottom {
+        img {
+            width: 190px;
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .app-bottom {
+        width: auto;
+        padding-top: 0px;
+        height: auto;
+    }
+
+    .app-bottom-left {
+        display: none;
+    }
+
+    .app-bottom-right {
+        text-align: center;
+        float: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .app-bottom {
+        width: auto;
+        padding-top: 0px;
+        height: auto;
+    }
+
+    .app-bottom-left {
+        display: none;
+    }
+
+    .app-bottom-right {
+        text-align: center;
+        float: none;
+    }
+}

@@ -1,0 +1,50 @@
+.service-center-panel {
+  position: relative; }
+
+.service-icon-left {
+  float: left;
+  position: relative;
+  width: 22%;
+  text-align: right; }
+  .service-icon-left img {
+    width: 46px; }
+
+.service-icon-right {
+  float: left;
+  position: relative;
+  width: 78%;
+  padding-left: 22px;
+  padding-top: 14px; }
+  .service-icon-right div:first-child p {
+    letter-spacing: 0px;
+    text-align: left; }
+
+.service-icon-right-two {
+  padding-top: 2px;
+  text-align: left; }
+  .service-icon-right-two p {
+    line-height: 8px; }
+
+@media (max-width: 375px) {
+  .service-icon-left img {
+    width: 35px; }
+  .service-icon-right {
+    padding-top: 7px; } }
+
+@media (min-width: 376px) and (max-width: 575px) {
+  .service-icon-left img {
+    width: 35px; }
+  .service-icon-right {
+    padding-top: 7px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .service-icon-left img {
+    width: 35px; }
+  .service-icon-right {
+    padding-top: 7px; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .service-icon-left img {
+    width: 35px; }
+  .service-icon-right {
+    padding-top: 7px; } }

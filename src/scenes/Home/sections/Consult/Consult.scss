@@ -1,0 +1,126 @@
+.consult-panel {
+    width: 100%;
+    background-color: #ffca08;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+
+    #p-add {
+        margin-top: -16px;
+    }
+}
+
+.consult-message {
+    padding-left: 32px;
+    padding-top: 21px;
+    text-align: center;
+
+    img {
+        width:60px;
+    }
+}
+
+.consult-letter {
+    word-break: keep-all;
+
+    p {
+        margin-top: 12px;
+    }
+
+    .large1 {
+        word-break: keep-all;
+    }
+
+    .small1 {
+        letter-spacing:0px;
+        word-break: keep-all;
+    }
+}
+
+.consult-button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    a:hover {
+        background-color: #3c83e4;
+    }
+}
+
+@media (max-width: 375px) {
+    .consult-panel {
+        height: 350px;
+
+        #p-add {
+            margin-top: 0px;
+        }
+
+        .btn-middle {
+            width: 70%;
+        }
+
+        .consult-letter {
+            p {
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .consult-message {
+        padding-top: 0px;
+    }
+
+    .consult-button {
+        padding-top: 0px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+    .consult-panel {
+        height: 350px;
+
+        #p-add {
+            margin-top: 0px;
+        }
+
+        .btn-middle {
+            width: 70%;
+        }
+
+        .consult-letter {
+            p {
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .consult-message {
+        padding-top: 0px;
+    }
+
+    .consult-button {
+        padding-top: 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .consult-panel {
+        height: 350px;
+
+        .consult-letter {
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .consult-letter {
+        padding-left: 58px;
+    }
+}

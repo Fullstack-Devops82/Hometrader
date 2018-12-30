@@ -1,0 +1,109 @@
+.support-panel {
+    width: 100%;
+    height: 96px;
+    background-color: #e5e5e5;
+}
+
+.support-panel .all {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.seoul-city img {
+    width: 150px;
+}
+
+.global-inspiration img {
+    width: 157px;
+}
+
+.kt-sea {
+    top: 18%;
+}
+
+.kt-sea img {
+    width: 164px;
+}
+
+.kb-realestate img {
+    width: 160px;
+}
+
+@media (max-width: 375px) {
+    .support-panel {
+        height: 166px;
+    }
+
+    .seoul-city {
+        margin-bottom: 20px;
+    }
+
+    .global-inspiration {
+        margin-bottom: 20px;
+    }
+
+    .kt-sea {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+    .support-panel {
+        height: 166px;
+    }
+
+    .seoul-city {
+        margin-bottom: 20px;
+    }
+
+    .global-inspiration {
+        margin-bottom: 20px;
+    }
+
+    .kt-sea {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .support-panel {
+        height: 166px;
+    }
+
+    .seoul-city {
+        margin-bottom: 20px;
+    }
+
+    .global-inspiration {
+        margin-bottom: 20px;
+    }
+
+    .kt-sea {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .seoul-city {
+        margin-bottom: 20px;
+    }
+
+    .global-inspiration {
+        margin-bottom: 20px;
+    }
+
+    .kt-sea {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .contents {
+        max-width: 1247px;
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

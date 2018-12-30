@@ -1,0 +1,138 @@
+.spec-panel {
+  width: 100%;
+  height: 447px; }
+
+.ht-spec-panel {
+  padding-top: 58px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.sub-spec-top {
+  text-align: center; }
+  .sub-spec-top p {
+    font-weight: 550; }
+  .sub-spec-top .spec-t1 {
+    line-height: 10px; }
+  .sub-spec-top .spec-t2 {
+    margin-top: -9px;
+    letter-spacing: -1px; }
+  .sub-spec-top .spec-t3 {
+    letter-spacing: -2px;
+    margin-top: -23px; }
+
+.sub-spec-bottom {
+  margin-top: 78px;
+  height: 256px;
+  margin-left: 121px;
+  margin-right: 104px; }
+
+.sub-spec-left {
+  float: left;
+  position: relative;
+  width: 20%;
+  padding-top: 8px;
+  letter-spacing: -5px;
+  font-weight: 540; }
+
+.sub-spec-center {
+  float: left;
+  position: relative;
+  width: 48%; }
+
+.hr-chart-blue {
+  margin: 7px 0px;
+  width: 90%;
+  background-color: #0c4ca3;
+  height: 24px;
+  margin-bottom: 20px; }
+
+.hr-chart-grey {
+  margin-top: 20px;
+  width: 48%;
+  background-color: #eeeeee;
+  height: 24px; }
+
+.sub-spec-right {
+  float: left;
+  position: relative;
+  width: 32%;
+  padding-top: 7px;
+  font-weight: 540;
+  word-break: keep-all; }
+
+#sub-buy-fee {
+  margin-top: -7px;
+  letter-spacing: -1px;
+  line-height: 0px; }
+
+@media (max-width: 375px) {
+  .spec-panel {
+    height: 505px; }
+  .sub-spec-left {
+    width: 30%;
+    word-break: keep-all; }
+  .sub-spec-top {
+    word-break: keep-all;
+    padding: 0px 20px; }
+  .sub-spec-center {
+    width: 38%; }
+  .sub-spec-right {
+    word-break: keep-all;
+    line-height: 0.9; }
+  .sub-spec-bottom {
+    margin-top: 28px;
+    height: 256px;
+    margin-left: 2px;
+    margin-right: 2px; }
+  #sub-buy-fee {
+    line-height: 20px; } }
+
+@media (min-width: 376px) and (max-width: 575px) {
+  .sub-spec-left {
+    width: 30%;
+    word-break: keep-all; }
+  .sub-spec-top {
+    word-break: keep-all;
+    padding: 0px 20px; }
+  .sub-spec-center {
+    width: 38%; }
+  .sub-spec-right {
+    word-break: keep-all;
+    line-height: 1; }
+  .sub-spec-bottom {
+    margin-top: 28px;
+    height: 256px;
+    margin-left: 2px;
+    margin-right: 2px; }
+  #sub-buy-fee {
+    line-height: 20px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .sub-spec-top {
+    word-break: keep-all;
+    padding: 0px 20px; }
+  .sub-spec-bottom {
+    margin-top: 78px;
+    height: 256px;
+    margin-left: 2px;
+    margin-right: 2px; }
+  .sub-spec-left {
+    width: 30%;
+    word-break: keep-all; }
+  .sub-spec-center {
+    width: 38%; }
+  .sub-spec-right {
+    word-break: keep-all;
+    line-height: 1; }
+    .sub-spec-right .spec-t4 {
+      margin-top: 17px; }
+  #sub-buy-fee {
+    line-height: 20px; } }
+
+@media (max-width: 1300px) {
+  .contents {
+    max-width: 1247px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; } }
